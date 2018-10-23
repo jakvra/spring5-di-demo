@@ -1,10 +1,8 @@
 package guru.springframework.controllers;
 
-import guru.springframework.services.GreetingService;
-import guru.springframework.services.GreetingServiceImpl;
+import guru.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Controller;
 // NOT TO DO !!!!
 
